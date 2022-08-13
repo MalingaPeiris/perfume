@@ -1,0 +1,40 @@
+.checkout-container {
+  max-width: 1400px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.checkput-heading-container {
+  max-width: 1400px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.checkout-input {
+  border-style: none;
+  background: rgba(220,53,69,0.05);
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.checkout-heading {
+  color: #ff4d42;
+}
+
+.checkout-text-area {
+  min-height: 200px;
+  max-height: 300px;
+}
+
+.checkout-pay-div {
+  border-radius: 10px;
+  border: 1px dashed var(--red) ;
+}
+
+.order-heading {
+  background: rgba(220,53,69,0.2);
+  border-radius: 5px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+

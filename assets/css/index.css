@@ -1,0 +1,214 @@
+.landing-container {
+  max-width: 1920px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.landing-div {
+  background: linear-gradient(rgba(0,0,0,0.4) 0%, white 100%), url("../../assets/img/25.jpg") center / cover no-repeat;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.landing-col {
+}
+
+.landing-heading {
+  margin: 0;
+  text-shadow: 1px 1px 3px rgb(166,166,166);
+  font-size: 54.8px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+@media (max-width: 540px) {
+  .landing-heading {
+    margin: 0;
+    text-shadow: 1px 1px 3px rgb(166,166,166);
+    font-size: 32px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+  }
+}
+
+.cloudImg {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate calc(8s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.index-body {
+  overflow-x: hidden;
+}
+
+.perfume-img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 500px;
+  min-width: 280px;
+}
+
+.aboutUs-container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 540px) {
+  .aboutUs-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.index-heading {
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.index-para {
+  font-family: 'Noto Rashi Hebrew', serif;
+}
+
+.cat-img {
+  width: 100%;
+  max-width: 600px;
+  min-width: 280px;
+  border-radius: 10px;
+  background: linear-gradient(black 0%, white);
+}
+
+.cat-col {
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.4)), url("../../assets/img/cat-clothes.jpg") center / cover no-repeat;
+  max-width: 600px;
+  min-width: 280px;
+  width: 100%;
+  max-height: 600px;
+  min-height: 400px;
+  height: 100%;
+}
+
+.cat-container {
+  margin-bottom: 150px;
+  overflow: hidden;
+}
+
+@media (max-width: 540px) {
+  .cat-container {
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+}
+
+.index-hr {
+  height: 4px;
+  background: #b00011;
+  border-radius: 10px;
+}
+
+.cat-col-1 {
+}
+
+#cat-2 {
+  max-width: 600px;
+  width: 100%;
+  max-height: 300px;
+  min-height: 200px;
+  height: 100%;
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.4) 100%), url("../../assets/img/cat-toys.jpg") center / cover no-repeat;
+}
+
+#cat-3 {
+  max-width: 600px;
+  width: 100%;
+  max-height: 300px;
+  min-height: 200px;
+  height: 100%;
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.4) 100%), url("../../assets/img/cat-perfumes.jpg") center / cover no-repeat;
+}
+
+.cat-head-container {
+  margin-bottom: 50px;
+}
+
+.featured-container {
+  margin-bottom: 150px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+
+@media (max-width: 540px) {
+  .featured-container {
+    max-width: 1920px;
+    min-width: 280px;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+}
+
+.featured-img-col {
+  background: url("../../assets/img/featured-img.jpg") center / cover no-repeat;
+  height: 600px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.featured-col {
+  background: linear-gradient(0deg, #e81b1b, #e85181), #a3a0a9;
+  padding: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.button-color {
+  background: #542166;
+}
+
+.types-container {
+  margin-bottom: 150px;
+}
+
+.type-col-1 {
+  height: 600px;
+}
+
+.type-img {
+  position: absolute;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.type-img:hover {
+  position: absolute;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+.col-pad {
+  padding: 0;
+  overflow: hidden;
+}
+
+.type-link {
+  position: absolute;
+  width: 100%;
+}
+
+.type-heading {
+  z-index: 1;
+  width: 150px;
+  height: 100%;
+}
+
+.type-col-2 {
+  height: 100%;
+}
+

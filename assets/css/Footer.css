@@ -1,0 +1,20 @@
+.footer-container {
+  margin-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.footer-icon {
+  font-size: 28px;
+}
+
+.map {
+  border-radius: 10px;
+}
+
+.footer-div {
+  background: #542166;
+}
+

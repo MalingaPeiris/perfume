@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>perfume</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Rashi+Hebrew&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <link rel="stylesheet" href="assets/css/contactUs.css">
+    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="assets/css/Image-Tab-Gallery-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Basic.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/single-product.css">
+    <link rel="stylesheet" href="assets/css/terms.css">
+</head>
+
+<body>
+    <div class="container mt-4 profile-container">
+        <div class="row p-0 profile-row">
+            <div class="col-md-3 p-0">
+                <div class="shadow-sm d-flex flex-column align-items-center profile-details"><img class="cover-pic" src="assets/img/cover.jpg"><img class="img-fluid rounded-circle profile-pic mt-4" src="assets/img/img3-min.jpg" alt="profile picute" loading="lazy">
+                    <h3 class="text-center">Peter Parker</h3>
+                    <p class="text-center profile-user-tagline text-black-50"><span class="profile-location-span"><i class="fas fa-map-marker-alt mr-1"></i>Colombo</span>&nbsp;|&nbsp;<span class="no-purchases">100+</span>&nbsp;Purchases</p>
+                </div>
+                <div class="shadow-sm mt-4 proTabLeftDiv p-3"><div id="first-tab" class="d-flex justify-content-between align-items-center proTabLeft p-3" onclick="openProTab('personalInfo')">
+    <h6 class="ml-2"><i class="far fa-user mr-2"></i>Personal Info</h6><i class="fas fa-greater-than"></i>
+</div><div class="d-flex justify-content-between align-items-center proTabLeft p-3" onclick="openProTab('changePassword')">
+    <h6 class="ml-2"><i class="fas fa-lock-open mr-2"></i>Change Password</h6><i class="fas fa-greater-than"></i>
+</div><div class="d-flex justify-content-between align-items-center proTabLeft p-3" onclick="openProTab('billingDetails')">
+    <h6 class="ml-2"><i class="far fa-credit-card mr-2"></i>Billing Details</h6><i class="fas fa-greater-than"></i>
+</div><div class="d-flex justify-content-between align-items-center proTabLeft p-3" onclick="openProTab('myOrders')">
+    <h6 class="ml-2"><i class="fas fa-money-check-alt mr-2"></i>My Orders</h6><i class="fas fa-greater-than"></i>
+</div><div class="d-flex justify-content-between align-items-center proTabLeft p-3" onclick="openProTab('deleteAccount')">
+    <h6 class="ml-2"><i class="fas fa-trash-alt mr-2"></i>Delete Account</h6><i class="fas fa-greater-than"></i>
+</div><div id="last-tab" class="shadow-sm d-flex justify-content-between align-items-center proTabLeft p-3"
+     onclick="openProTab('logOut')">
+    <h6 class="ml-2"><i class="fas fa-sign-out-alt mr-2"></i>Log Out</h6><i class="fas fa-greater-than"></i>
+</div></div>
+            </div>
+            <div class="col-md-9">
+                <div>
+                    <form id="personalInfo" class="proTab tabViewDivMain p-4">
+                        <div>
+                            <h1 class="text-black-50">Personal Info</h1>
+                            <hr>
+                            <div class="form-group d-flex flex-wrap flex-md-nowrap">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">First Name</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="Peter"></div>
+                                <div class="w-100 ml-2"><label class="font-weight-bold text-secondary">Last Name</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="Parker"></div>
+                            </div>
+                            <div class="form-group d-flex flex-wrap flex-md-nowrap">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Company Name</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="My Power"></div>
+                            </div>
+                            <div class="form-group d-flex flex-wrap flex-md-nowrap">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Email</label><input class="form-control checkout-input m-1" type="email" required="" placeholder="peterparker@gmail.com"></div>
+                                <div class="w-100 ml-2"><label class="font-weight-bold text-secondary">Mobile Number</label><input class="form-control checkout-input m-1" type="number" required="" placeholder="077 123 45 67"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-dark text-uppercase font-weight-bold w-50" type="button">update</button>
+                        </div>
+                    </form>
+                    <form id="changePassword" class="tabViewDivMain p-4 proTab">
+                        <div>
+                            <h1 class="text-black-50">Change Password</h1>
+                            <hr>
+                            <div class="form-group d-flex flex-wrap flex-md-nowrap">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Old Password</label><input class="form-control checkout-input m-1" type="password" required="true" placeholder=""></div>
+                            </div>
+                            <div class="form-group d-flex flex-wrap flex-md-nowrap">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">New Password&nbsp;</label><input class="form-control checkout-input m-1" type="password" required="" placeholder=""></div>
+                                <div class="w-100 ml-2"><label class="font-weight-bold text-secondary">Confirm Password</label><input class="form-control checkout-input m-1" type="password" required="" placeholder=""></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-dark text-uppercase font-weight-bold w-50" type="button">change password</button>
+                        </div>
+                    </form>
+                    <form id="billingDetails" class="tabViewDivMain p-4 proTab">
+                        <div>
+                            <h1 class="text-black-50">Billing Details</h1>
+                            <hr>
+                            <div class="form-group d-flex flex-column">
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">House Number and Street Name</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="No. 12 B, Backer Street"></div>
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Apartment, Suite, unit, etc. (Optional)</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="user information"></div>
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">City / Town</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="London"></div>
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Country</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="United Kingdom"></div>
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Postal Code</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="090091"></div>
+                                <div class="d-flex flex-column justify-content-center w-100 ml-2"><label class="font-weight-bold text-secondary">Contact Number</label><input class="shadow-sm form-control checkout-input m-1" type="text" required="" placeholder="12378-12371912-12"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-dark text-uppercase font-weight-bold w-50" type="button">update</button>
+                        </div>
+                    </form>
+                    <form id="myOrders" class="tabViewDivMain p-4 proTab">
+                        <div>
+                            <h1 class="text-black-50">My Orders</h1>
+                            <p class="text-left profile-user-tagline text-black-50"><span class="profile-location-span"><i class="fas fa-money-bill-alt mr-1"></i>&nbsp;123.75</span>&nbsp;Spent |&nbsp;<span class="no-purchases">100+</span>&nbsp;Purchases</p>
+                            <hr>
+                            <div class="shadow-sm d-flex justify-content-between mt-4 bg-white rounded cart-peoduct-div mb-3">
+                                <div class="d-flex align-items-center"><img class="img-thumbnail img-fluid shadow-sm cart-product-img" src="assets/img/img4-min.jpg"></div>
+                                <div class="d-flex flex-column justify-content-center flex-wrap cart-product-name-div">
+                                    <p class="text-uppercase mb-0 ml-2 text-black-50 cart-product-code">product code</p>
+                                    <h6 class="ml-2 cart-product-heading">Product Name</h6>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center mr-3">
+                                    <p class="font-weight-bold">x2</p>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center align-items-end mr-2">
+                                    <h5 class="font-weight-bold cart-product-price text-danger">LKR&nbsp;<span>999</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-dark text-uppercase font-weight-bold w-50" type="button">update</button>
+                        </div>
+                    </form>
+                    <form id="deleteAccount" class="tabViewDivMain p-4 proTab">
+                        <div>
+                            <h1 class="text-black-50">Delete Account</h1>
+                            <hr>
+                            <p><input type="checkbox">&nbsp; &nbsp;By clicking this check box, hereby I declare that I am aware of actions and consequences after deleting this user account to my knowledge.</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-danger text-uppercase font-weight-bold w-50" type="button"><i class="fas fa-exclamation-circle"></i>&nbsp; &nbsp;Delete Account</button>
+                        </div>
+                    </form>
+                    <form id="logOut" class="tabViewDivMain p-4 proTab">
+                        <div>
+                            <h1 class="text-black-50">Log Out</h1>
+                            <hr>
+                            <p>Log Out From This User Account?</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center proActionDiv">
+                            <hr class="w-75"><button class="btn btn-danger text-uppercase font-weight-bold w-50" type="button">log out</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/categorySlider.js"></script>
+    <script src="assets/js/categoryTabs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+    <script src="assets/js/Image-Tab-Gallery-Horizontal.js"></script>
+    <script src="assets/js/profile-tab.js"></script>
+    <script src="assets/js/Range-selector---slider.js"></script>
+</body>
+
+</html>
