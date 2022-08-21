@@ -7,11 +7,13 @@ document.addEventListener("click", (e) => {
     currentDropdown = e.target.closest("[data-dropdown]");
     currentDropdown.classList.toggle("active");
     document.getElementById("dropdownMenu").style.opacity = 1;
+    document.getElementById("dropdownMenu").style.pointerEvents = "auto";
   }
 
   document.querySelectorAll("[data-dropdown].active").forEach((dropdown) => {
     if (dropdown === currentDropdown) return;
     dropdown.classList.remove("active");
       document.getElementById("dropdownMenu").style.opacity = 0;
+      document.getElementById("dropdownMenu").style.pointerEvents = "none";
   });
 });

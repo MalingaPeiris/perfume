@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>perfume</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Angkor&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Rashi+Hebrew&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -33,91 +36,260 @@
 </head>
 
 <body>
-    <div class="d-flex flex-column justify-content-center align-items-center shop-main-div pt-5 w-100 p-1">
-        <div class="row" style="max-width: 1400px;min-width: 280px;width: 100%;">
-            <div class="col">
-                <h5 class="text-black-50 text-dark">HOME &gt; SHOP &gt;</h5>
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean">
+        <div class="container"><a class="navbar-brand text-danger" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav justify-content-between ml-auto justify-content-sm-start align-items-sm-start justify-content-md-between justify-content-lg-between justify-content-xl-between lg-w-75">
+                    <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown cat-dropdownj"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">&nbsp;Categories</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="profile.html">Category 1</a><a class="dropdown-item" href="#">Category 2</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link border rounded-pill shadow-sm d-flex cart-div" href="#"><i class="fas fa-shopping-cart"></i>
+                            <p class="ml-3 mb-0 text-danger"><span class="cart-count text-danger font-weight-bold">99</span>&nbsp;Items</p>
+                        </a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#"><img class="rounded-circle img-fluid shadow-sm nav-user-img" src="assets/img/img3-min.jpg">&nbsp;Username</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="profile.html">My Profile</a><a class="dropdown-item" href="#">Sign Out</a></div>
+                    </li>
+                    <li class="nav-item m-1"><a class="btn btn-light btn-sm bg-light border rounded border-danger shadow-sm" role="button">SIGN IN</a></li>
+                    <li class="nav-item m-1"><a class="btn btn-light btn-sm bg-light border rounded border-danger shadow-sm" role="button">SIGN UP</a></li>
+                </ul>
             </div>
         </div>
-        <div class="container shop-container">
-            <div class="row">
-                <div class="col-sm-12 col-md-3 d-flex h-100">
-                    <div class="w-100 bg-light rounded h-100 p-3 mb-1">
-                        <h5 class="mb-2">Price Range</h5>
-                        <div><span><strong>10$</strong></span><input type="text" id="ex2" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"><span><strong>1000$</strong></span></div>
-                        <h5 class="mt-2 mt-4">Categories</h5><select class="form-control-sm mr-3 rounded-pill pl-2 sort-select ml-1 category-select">
-                            <option value="1" selected="">Category (All)</option>
-                            <option value="13">Category 1</option>
-                            <option value="2">Category 2</option>
-                            <option value="3">Category 3</option>
-                        </select>
-                        <div class="list-group w-75 ml-3 category-list"><button class="list-group-item list-group-item-action"><span>Category 001</span><span class="category-count">&nbsp;(12)</span></button><button class="list-group-item list-group-item-action"><span>Category 002</span><span class="category-count">&nbsp;(21)</span></button><button class="list-group-item list-group-item-action"><span>Category 003</span><span class="category-count">&nbsp;(32)</span></button></div>
-                        <h5 class="mt-2 mt-4">Brands</h5>
-                        <div class="d-flex align-items-center"><input type="checkbox">
-                            <p class="ml-3 mb-0">Addidas</p>
+    </nav>
+    <div class="shadow-sm d-flex d-xl-flex align-items-center align-items-xl-center top-nav-div">
+        <div class="container d-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-between justify-content-lg-between justify-content-xl-between top-nav-container pt-1">
+            <div class="hotline-div">
+                <p class="d-flex justify-content-center align-items-center top-nav-para">HotLine: +94 7* *** ****</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center"><input type="text" class="nav-search" placeholder="Search . . ."><i class="fas fa-search d-xl-flex align-items-xl-center ml-3"></i></div><div class="dropdown cat-drop" data-dropdown>
+  <button
+    class="border rounded-pill shadow-sm d-flex justify-content-center align-items-center p-2 cat-drop-div link" data-dropdown-button
+  >Categories
+    <i class="fa fa-caret-down ml-2 text-danger cat-icon"></i>
+  </button>
+</div>
+
+            <div class="top-nav-icon-div hotline-div"><i class="fa fa-facebook-square text-dark"></i><i class="icon ion-social-instagram text-dark ml-3"></i></div>
+        </div>
+    </div>
+    <div class="flex-wrap cat-dropdown-menu pb-3" id="dropdownMenu">
+        <div class="container shadow d-flex category-container p-2">
+            <div class="p-3">
+                <div id="cat1" class="tabcontent">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Sub Category 001</h4>
+                            <div class="d-flex flex-column"><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 1</a><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 2</a><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 3</a></div>
                         </div>
-                        <div class="d-flex align-items-center"><input type="checkbox">
-                            <p class="ml-3 mb-0">Nike</p>
+                        <div class="col">
+                            <h4>Sub Category 002</h4>
+                            <div class="d-flex flex-column"><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 2</a><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 3</a></div>
+                        </div>
+                        <div class="col">
+                            <h4>Sub Category 002</h4>
+                            <div class="d-flex flex-column"><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 2</a><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 3</a></div>
+                        </div>
+                        <div class="col">
+                            <h4>Sub Category 002</h4>
+                            <div class="d-flex flex-column"><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 2</a><a class="text-decoration-none text-dark cursor-pointer mb-1" href="#">Category 3</a></div>
                         </div>
                     </div>
-                    <div class="h-100 shop-seperator-div bg-white"></div>
                 </div>
-                <div class="col-sm-12 col-md-9 d-flex flex-column justify-content-center flex-wrap justify-content-sm-center justify-content-md-start bg-light p-2 rounded">
-                    <div class="d-flex justify-content-between flex-wrap align-items-xl-center pl-3 mb-0 mt-2">
-                        <p class="font-weight-bold text-dark mb-0 ml-2 mr-3 mt-1">Result : <span class="mr-1 shop-product-count">99</span>Products</p>
+            </div>
+        </div>
+    </div>
+    <h2 class="font-weight-bold shopHeading">Products</h2>
+    <div class="container-fluid productMainContainer">
+        <div class="row">
+            <div class="col-md-2 shopSideColumn">
+                <div class="shopSideDiv w-100">
+                    <p class="w-100 filterTopicPara">Categories</p><nav>
+  <div class="sidePane">
+    <ul>
+      <li id="sideCategory1">
+        <a href="#sideCategory1">
+          <span> Category 1</span>
+          <i class="fa fa-angle-right"></i>
+        </a>
+        <ul>
+          <li><p>Sub Category 1</p></li>
+          <li><p>Sub Category 2</p></li>
+          <li><p>Sub Category 3</p></li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li id="sideCategory2">
+        <a href="#sideCategory2">
+          <span> Category 2</span>
+          <i class="fa fa-angle-right"></i>
+        </a>
+        <ul>
+          <li><p>Sub Category 1</p></li>
+          <li><p>Sub Category 2</p></li>
+          <li><p>Sub Category 3</p></li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li id="sideCategory3">
+        <a href="#sideCategory3">
+          <span> Category 3</span>
+          <i class="fa fa-angle-right"></i>
+        </a>
+        <ul>
+          <li><p>Sub Category 1</p></li>
+          <li><p>Sub Category 2</p></li>
+          <li><p>Sub Category 3</p></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+                </div>
+                <div class="shopSideDiv mt-4">
+                    <p class="w-100 filterTopicPara">Refine Search</p>
+                    <p class="ml-3 font-weight-bold single-services-para">Brand</p>
+                    <div class="d-flex justify-content-between align-items-center ml-4 w-50 mb-4"><input type="checkbox"><img class="img-fluid shadow-sm sideBrandImage" src="assets/img/perfume-bg.jpg"></div>
+                    <div class="d-flex justify-content-between align-items-center ml-4 w-50 mb-4"><input type="checkbox"><img class="img-fluid shadow-sm sideBrandImage" src="assets/img/perfume-bg.jpg"></div>
+                    <div class="d-flex justify-content-between align-items-center ml-4 w-50 mb-4"><input type="checkbox"><img class="img-fluid shadow-sm sideBrandImage" src="assets/img/perfume-bg.jpg"></div>
+                    <hr class="mt-3 mb-3 w-75">
+                    <p class="ml-3 font-weight-bold single-services-para">Specification 1</p>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 1</p>
                     </div>
-                    <div class="d-flex justify-content-between flex-wrap justify-content-xl-end align-items-xl-center pl-3 mb-2 mt-2"><select class="form-control-sm mr-3 rounded-pill pl-2 sort-select">
-                            <option value="12" selected="">Sort by Price : Low to High</option>
-                            <option value="13">Sort by Price : High to Low</option>
-                            <option value="14">Sort by Latest</option>
-                            <option value="15">Sort by Average Rating</option>
-                        </select></div>
-                    <hr class="w-100">
-                    <div class="d-flex justify-content-center flex-wrap justify-content-sm-between justify-content-md-start">
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name&nbsp;</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">lkr 123</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
-                        </div>
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">Text</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
-                        </div>
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">Text</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
-                        </div>
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">Text</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
-                        </div>
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">Text</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
-                        </div>
-                        <div class="shadow-sm d-flex flex-column align-items-center shop-product-card-div bg-white rounded m-2"><img class="img-fluid shop-product-img w-100 rounded-top" loading="lazy" src="assets/img/img1-min.jpg">
-                            <h6 class="text-uppercase text-center pt-1 mb-0">product name</h6>
-                            <div class="text-center single-rate-div mt-0 bg-white" id="shop-product-rate"><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i><i class="fa fa-star single-rate-icon text-warning mr-1"></i></div>
-                            <p class="text-uppercase text-center shop-product-price-para mb-0"><span class="shop-product-sale-price-span text-black-50 mr-1">Text</span>LKR 99999</p><button class="btn btn-success btn-sm text-uppercase w-75 mt-2" type="button">add to cart</button>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 2</p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 3</p>
+                    </div>
+                    <hr class="mt-4 mb-3 w-75">
+                    <p class="ml-3 font-weight-bold single-services-para">Specification 2</p>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 1</p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 2</p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="checkbox">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 3</p>
+                    </div>
+                    <hr class="mt-4 mb-3 w-75">
+                    <p class="ml-3 font-weight-bold single-services-para">Specification 3</p>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="radio">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 1</p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="radio">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 2</p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-3"><input type="radio">
+                        <p class="mb-0 ml-3 single-services-para">subSpecification 3</p>
+                    </div>
+                    <hr class="mt-4 mb-3 w-75">
+                    <p class="ml-3 font-weight-bold single-services-para">Rating</p>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-0"><input type="checkbox">
+                        <p class="single-customer-rating mb-1 text-black-50 mt-2">&nbsp;&nbsp;<i class="fa fa-star mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i></p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-0"><input type="checkbox">
+                        <p class="single-customer-rating mb-1 text-black-50 mt-2">&nbsp;&nbsp;<i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i></p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-0"><input type="checkbox">
+                        <p class="single-customer-rating mb-1 text-black-50 mt-2">&nbsp;&nbsp;<i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star-o mr-1"></i><i class="fa fa-star-o mr-1"></i></p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-0"><input type="checkbox">
+                        <p class="single-customer-rating mb-1 text-black-50 mt-2">&nbsp;&nbsp;<i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star-o mr-1"></i></p>
+                    </div>
+                    <div class="d-flex align-items-center w-75 ml-3 mb-0"><input type="checkbox">
+                        <p class="single-customer-rating mb-1 text-black-50 mt-2">&nbsp;&nbsp;<i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i><i class="fa fa-star mr-1"></i></p>
+                    </div>
+                    <hr class="mt-4 mb-3 w-75"><button class="btn btn-dark text-uppercase font-weight-bold text-center text-white w-100 mb-4" type="button">Clear All Filters</button>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="d-flex d-xl-flex align-items-center align-items-xl-center sortingDiv p-1 mb-2">
+                    <div class="d-flex">
+                        <p class="pl-3 m-0 font-weight-bold">Sort by :&nbsp;</p><select class="sortSelect p-1 bg-light">
+                            <option value="12" selected="">High to Low Price</option>
+                            <option value="13">Low to High Price</option>
+                            <option value="14">Recently Added</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex d-xl-flex align-items-center align-items-xl-center sortingDiv p-1 mb-2 bg-white"><button id="filterButton" class="btn btn-dark text-uppercase font-weight-bold text-center text-white w-100" type="button"><i class="fa fa-th-large" onclick="filterSlide()"></i>  filter products</button></div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/img1-min.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
                         </div>
                     </div>
-                    <hr class="w-100">
-                    <div class="d-xl-flex align-items-center justify-content-xl-center mt-4">
-                        <nav>
-                            <ul class="pagination">
-                                <li class="page-item"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
-                            </ul>
-                        </nav>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/img2-min.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/perfume-img.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/img3-min.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/featured-img.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/featured.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="p-3 shopProductDiv mt-2 mb-2"><img class="shadow w-100 shopProductImg" src="assets/img/contact-us.jpg">
+                            <p class="text-uppercase font-weight-bold mt-3 mb-0 shopProductName">product named fdsf sdfs</p>
+                            <div class="d-flex justify-content-between align-items-xl-center">
+                                <p class="mb-2"><i class="fa fa-star mr-1"></i>4/5</p>
+                                <h6 class="text-uppercase text-center text-danger"><span>LKR&nbsp;</span>999</h6>
+                            </div>
+                            <div class="d-flex align-items-xl-center"><button class="btn btn-dark text-uppercase text-center w-100 related-add-to-cart-button button-color" type="button"><i class="fa fa-shopping-cart mr-2"></i>add to cart</button><i class="fa fa-heart-o related-heart ml-2"></i></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,10 +301,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/categorySlider.js"></script>
     <script src="assets/js/categoryTabs.js"></script>
+    <script src="assets/js/filterButton.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
     <script src="assets/js/Image-Tab-Gallery-Horizontal.js"></script>
     <script src="assets/js/profile-tab.js"></script>
-    <script src="assets/js/Range-selector---slider.js"></script>
 </body>
 
 </html>
